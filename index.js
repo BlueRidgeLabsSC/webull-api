@@ -1,1 +1,1 @@
-connect("webull.com", () => console.log("connected"))
+connect("webull.com", (e) => console.log("connected", e.token))
